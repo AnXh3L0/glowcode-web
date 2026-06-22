@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Glow Cafe – Kafene cilësore në Fier. Shija që ndriçon ditën tuaj. Hapur çdo ditë 07:00–20:00 në Rruga Jakov Xoxa 12." />
+  <title>Glow Cafe | Fier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip Navigation -->
+  <a href="#main-content" class="skip-link">Kalo te përmbajtja kryesore</a>
+
+  <!-- Sticky Navigation -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo" aria-label="Glow Cafe – faqja kryesore">
+        <span class="logo-glow">Glow</span><span class="logo-cafe">Cafe</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Hap menunë e navigimit">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <nav id="primary-nav" aria-label="Navigimi kryesor">
+        <ul class="nav-list" role="list">
+          <li><a href="#rreth-nesh" class="nav-link">Rreth Nesh</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#sherbimet" class="nav-link">Shërbimet</a></li>
+          <li><a href="#pikat-tona" class="nav-link">Pse Ne?</a></li>
+          <li><a href="#orari" class="nav-link">Orari</a></li>
+          <li><a href="#vendndodhja" class="nav-link">Vendndodhja</a></li>
+          <li><a href="#kontakt" class="btn nav-btn">Na kontaktoni</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Mirësevini te Glow Cafe">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow">☕ Mirë se vini</p>
+        <h1>Glow Cafe</h1>
+        <p class="hero-slogan">Shija që ndriçon ditën tuaj.</p>
+        <div class="hero-meta">
+          <span>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rruga Jakov Xoxa 12, Fier
+          </span>
+          <span>
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Hapur çdo ditë: 07:00 – 20:00
+          </span>
+        </div>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary btn-large">Shiko Menunë</a>
+          <a href="#vendndodhja" class="btn btn-outline btn-large">Na gjej</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-indicator"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="rreth-nesh" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-layout about-layout">
+          <div class="about-visual" aria-hidden="true">
+            <div class="about-img-placeholder">
+              <div class="about-img-inner">
+                <span class="about-icon">☕</span>
+                <span class="about-img-text">Glow Cafe<br/>Est. 2026</span>
+              </div>
+            </div>
+            <div class="about-badge">
+              <span class="badge-number">10</span>
+              <span class="badge-label">Punonjës</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <span class="section-eyebrow">Rreth Nesh</span>
+            <h2 id="about-heading">Historia jonë</h2>
+            <p class="lead-text">
+              Glow Cafe është hapur në Janar 2026. Me një staf prej 10 punonjësish,
+              ofrojmë kafe cilësore dhe shërbim të ngrohtë për çdo klient
+              në qytetin e Fierit.
+            </p>
+            <p>
+              Misioni ynë është të bëjmë çdo vizitë të paharrueshme — nga kupë e parë
+              e kafes në mëngjes deri te kafja e pasdites. Atmosferë e rehatshme,
+              produkte cilësore dhe staf miqësor ju presin çdo ditë.
+            </p>
+            <ul class="about-highlights" role="list">
+              <li>
+                <span class="highlight-icon" aria-hidden="true">🌱</span>
+                <span>Kafe me origjinë të zgjedhur</span>
+              </li>
+              <li>
+                <span class="highlight-icon" aria-hidden="true">🤝</span>
+                <span>Shërbim personal dhe i ngrohtë</span>
+              </li>
+              <li>
+                <span class="highlight-icon" aria-hidden="true">✨</span>
+                <span>Ambient modern dhe komod</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section section-alt" id="menu" aria-labelledby="menu-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Çfarë ofrojmë</span>
+          <h2 id="menu-heading">Menu</h2>
+          <p class="section-desc">Zgjidhni nga shumëllojshmëria jonë e pijeve dhe ushqimeve.</p>
+        </div>
+
+        <div class="menu-tabs" role="tablist" aria-label="Kategoritë e menusë">
+          <button class="menu-tab active" role="tab" aria-selected="true" aria-controls="tab-kafe" id="btn-kafe" data-tab="kafe">☕ Kafe</button>
+          <button class="menu-tab" role="tab" aria-selected="false" aria-controls="tab-pije" id="btn-pije" data-tab="pije">🥤 Pije</button>
+          <button class="menu-tab" role="tab" aria-selected="false" aria-controls="tab-energjike" id="btn-energjike" data-tab="energjike">⚡ Energjike</button>
+          <button class="menu-tab" role="tab" aria-selected="false" aria-controls="tab-alkol" id="btn-alkol" data-tab="alkol">🍷 Alkol</button>
+        </div>
+
+        <div id="tab-kafe" role="tabpanel" aria-labelledby="btn-kafe" class="menu-panel active">
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Espresso</span>
+                <span class="menu-item-desc">Kafe e fortë dhe aromatike</span>
+              </div>
+              <span class="menu-item-price">70 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Macchiato</span>
+                <span class="menu-item-desc">Espresso me pak qumësht</span>
+              </div>
+              <span class="menu-item-price">100 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Cappuccino</span>
+                <span class="menu-item-desc">Kafe me qumësht dhe shkumë</span>
+              </div>
+              <span class="menu-item-price">150 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Latte</span>
+                <span class="menu-item-desc">Kafe e butë me shumë qumësht</span>
+              </div>
+              <span class="menu-item-price">160 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Americano</span>
+                <span class="menu-item-desc">Espresso me ujë të nxehtë</span>
+              </div>
+              <span class="menu-item-price">120 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Freddo Espresso</span>
+                <span class="menu-item-desc">Espresso i ftohtë mbi akull</span>
+              </div>
+              <span class="menu-item-price">130 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Freddo Cappuccino</span>
+                <span class="menu-item-desc">Cappuccino i ftohtë me shkumë</span>
+              </div>
+              <span class="menu-item-price">170 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Filter Coffee</span>
+                <span class="menu-item-desc">Kafe e filtruar, e butë</span>
+              </div>
+              <span class="menu-item-price">110 Lekë</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-pije" role="tabpanel" aria-labelledby="btn-pije" class="menu-panel" hidden>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Coca-Cola</span>
+                <span class="menu-item-desc">330ml</span>
+              </div>
+              <span class="menu-item-price">150 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Fanta</span>
+                <span class="menu-item-desc">330ml, portokall ose limon</span>
+              </div>
+              <span class="menu-item-price">150 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Ujë natyral</span>
+                <span class="menu-item-desc">500ml</span>
+              </div>
+              <span class="menu-item-price">80 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Ujë me gaz</span>
+                <span class="menu-item-desc">500ml</span>
+              </div>
+              <span class="menu-item-price">100 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Lëng portokalli</span>
+                <span class="menu-item-desc">Fllad dhe natyral</span>
+              </div>
+              <span class="menu-item-price">180 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Çaj</span>
+                <span class="menu-item-desc">Çaj bimor ose frutash</span>
+              </div>
+              <span class="menu-item-price">90 Lekë</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-energjike" role="tabpanel" aria-labelledby="btn-energjike" class="menu-panel" hidden>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Red Bull</span>
+                <span class="menu-item-desc">250ml, klasik ose sugar free</span>
+              </div>
+              <span class="menu-item-price">250 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Monster Energy</span>
+                <span class="menu-item-desc">500ml, shumëllojshmëri shijesh</span>
+              </div>
+              <span class="menu-item-price">300 Lekë</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-alkol" role="tabpanel" aria-labelledby="btn-alkol" class="menu-panel" hidden>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Birrë</span>
+                <span class="menu-item-desc">Shishe 330ml, vendase ose e importuar</span>
+              </div>
+              <span class="menu-item-price">250 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Verë (gotë)</span>
+                <span class="menu-item-desc">E kuqe ose e bardhë, e zgjedhur</span>
+              </div>
+              <span class="menu-item-price">300 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Raki</span>
+                <span class="menu-item-desc">Tradicionale shqiptare</span>
+              </div>
+              <span class="menu-item-price">200 Lekë</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <span class="menu-item-name">Whisky</span>
+                <span class="menu-item-desc">Gotë e zgjedhur</span>
+              </div>
+              <span class="menu-item-price">400 Lekë</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="sherbimet" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Çfarë kemi</span>
+          <h2 id="services-heading">Shërbimet</h2>
+          <p class="section-desc">Komoditetet që ofrojmë dhe informacione të rëndësishme për klientët tanë.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card available">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+            </div>
+            <h3>Wi-Fi</h3>
+            <p>Internet i shpejtë dhe falas për të gjithë klientët.</p>
+            <span class="service-badge available-badge">I disponueshëm</span>
+          </article>
+
+          <article class="service-card available">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Take-away</h3>
+            <p>Merr porosinë tënde me vete në çdo kohë.</p>
+            <span class="service-badge available-badge">I disponueshëm</span>
+          </article>
+
+          <article class="service-card available">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            </div>
+            <h3>Pagesë me kartë</h3>
+            <p>Pranojmë pagesa cash dhe me kartë bankare.</p>
+            <span class="service-badge available-badge">I disponueshëm</span>
+          </article>
+
+          <article class="service-card unavailable">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3"/><path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/></svg>
+            </div>
+            <h3>Delivery</h3>
+            <p>Aktualisht nuk ofrojmë shërbim dërgese në shtëpi.</p>
+            <span class="service-badge unavailable-badge">Jo i disponueshëm</span>
+          </article>
+
+          <article class="service-card unavailable">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+            </div>
+            <h3>Parking</h3>
+            <p>Nuk disponojmë parking të dedikuar.</p>
+            <span class="service-badge unavailable-badge">Jo i disponueshëm</span>
+          </article>
+
+          <article class="service-card unavailable">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3>Rezervime</h3>
+            <p>Nuk pranojmë rezervime, shërbejmë direkt në lokal.</p>
+            <span class="service-badge unavailable-badge">Jo i disponueshëm</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights / Why Us -->
+    <section class="section section-alt" id="pikat-tona" aria-labelledby="highlights-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Avantazhet tona</span>
+          <h2 id="highlights-heading">Pse të zgjidhni Glow Cafe?</h2>
+          <p class="section-desc">Çdo vizitë te ne është një përvojë e re që meriton të përsëritet.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-num" aria-hidden="true">01</div>
+            <div class="highlight-icon-wrap" aria-hidden="true">☕</div>
+            <h3>Kafe e cilësisë së lartë</h3>
+            <p>Blenin me kujdes kofen më të mirë, të pjekur me durim dhe servirur me ekspertizë.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-num" aria-hidden="true">02</div>
+            <div class="highlight-icon-wrap" aria-hidden="true">🌟</div>
+            <h3>Staf profesional</h3>
+            <p>Ekipi ynë prej 10 personash është trajnuar të ofrojë shërbimin më të mirë me buzëqeshje.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-num" aria-hidden="true">03</div>
+            <div class="highlight-icon-wrap" aria-hidden="true">🏡</div>
+            <h3>Ambient i rehatshëm</h3>
+            <p>Dizajn modern me ngjyrë të ngrohtë — vendi perfekt për punë, relaks ose takime miqsh.</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-num" aria-hidden="true">04</div>
+            <div class="highlight-icon-wrap" aria-hidden="true">📍</div>
+            <h3>Vendndodhje qendrore</h3>
+            <p>Në zemër të Fierit, lehtë i arritshëm për çdo vizitor apo banor të qytetit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="deshmimet" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Çfarë thonë klientët</span>
+          <h2 id="testimonials-heading">Dëshmimet</h2>
+          <p class="section-desc demo-note" role="note">
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Komente demonstruese – do të zëvendësohen me komente reale klientësh.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 yje">★★★★★</div>
+            <p>"Kafja më e mirë në Fier! Ambiente i këndshëm dhe stafi shumë profesional. Do ta vizitoj çdo ditë."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div>
+                <cite class="author-name">Arta Mehmetaj</cite>
+                <span class="author-tag">Klient i rregullt</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 yje">★★★★★</div>
+            <p>"Wi-Fi i shpejtë, cappuccino i shkëlqyer dhe ambiente perfekt për punë. Rekomandoj fuqimisht!"</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">B</div>
+              <div>
+                <cite class="author-name">Besnik Demi</cite>
+                <span class="author-tag">Profesionist</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 yje">★★★★★</div>
+            <p>"Glow Cafe ka ndryshuar rutinën time të mëngjesit. Prezantimi i kafes është i nivelit të lartë."</p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">E</div>
+              <div>
+                <cite class="author-name">Elona Shehi</cite>
+                <span class="author-tag">Klient i ri</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="section section-pink" id="orari" aria-labelledby="hours-heading">
+      <div class="container">
+        <div class="hours-layout">
+          <div class="hours-text">
+            <span class="section-eyebrow light">Kur jemi hapur</span>
+            <h2 id="hours-heading" class="text-white">Orari i punës</h2>
+            <p class="text-light">Jemi prezentë çdo ditë të javës dhe fundjavë. Gjithmonë të gatshëm t'ju shërbejmë.</p>
+            <a href="tel:0690000000" class="btn btn-white">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 5.51 5.51l1.28-1.28a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.39 14.92z"/></svg>
+              0690000000
+            </a>
+          </div>
+          <div class="hours-card" aria-label="Orari i javës">
+            <div class="hours-row">
+              <span class="day">E Hënë</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">E Martë</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">E Mërkurë</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">E Enjte</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">E Premte</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">E Shtunë</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+            <div class="hours-row last">
+              <span class="day">E Diel</span>
+              <span class="time-range">07:00 – 20:00</span>
+              <span class="open-badge">Hapur</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location + Map -->
+    <section class="section section-alt" id="vendndodhja" aria-labelledby="location-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Ku jemi</span>
+          <h2 id="location-heading">Vendndodhja</h2>
+          <p class="section-desc">Na gjeni lehtë në zemër të Fierit.</p>
+        </div>
+
+        <div class="location-layout">
+          <div class="location-info">
+            <div class="location-detail">
+              <div class="location-detail-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Adresa</strong>
+                <p>Rruga Jakov Xoxa 12<br/>Fier, Shqipëri</p>
+              </div>
+            </div>
+            <div class="location-detail">
+              <div class="location-detail-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Orari</strong>
+                <p>07:00 – 20:00<br/>Çdo ditë të javës</p>
+              </div>
+            </div>
+            <div class="location-detail">
+              <div class="location-detail-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 5.51 5.51l1.28-1.28a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.39 14.92z"/></svg>
+              </div>
+              <div>
+                <strong>Telefoni</strong>
+                <p><a href="tel:0690000000" class="location-phone">0690000000</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              title="Vendndodhja e Glow Cafe – Rruga Jakov Xoxa 12, Fier"
+              src="https://www.google.com/maps?q=Rruga+Jakov+Xoxa+12,+Fier,+Albania&output=embed"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="pyetje" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Keni pyetje?</span>
+          <h2 id="faq-heading">Pyetjet e shpeshta</h2>
+          <p class="section-desc">Gjeni përgjigjet për pyetjet më të zakonshme.</p>
+        </div>
+
+        <div class="faq-list" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+              <span>A keni Wi-Fi falas?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-1" hidden>
+              <p>Po, ofrojmë Wi-Fi të shpejtë dhe falas për të gjithë klientët tanë. Pyesni stafin për fjalëkalimin.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+              <span>A mund të marr kafe me vete (take-away)?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-2" hidden>
+              <p>Po, ofrojmë shërbim take-away. Mund të porosisni dhe të merrni kafen tuaj me vete në çdo kohë gjatë orarit tonë të punës.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+              <span>A pranoni pagesa me kartë?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-3" hidden>
+              <p>Po, pranojmë si pagesa cash ashtu edhe me kartë bankare. Keni lirinë të zgjidhni metodën e preferuar.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+              <span>A bëni delivery?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-4" hidden>
+              <p>Aktualisht nuk ofrojmë shërbim dërgese. Ju mirëpresim direkt në lokal ose mund të merrni porosinë me vete (take-away).</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+              <span>A keni parking?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-5" hidden>
+              <p>Nuk disponojmë parking të dedikuar. Megjithatë, mund të parkoni në rrugët pranë lokalit.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6">
+              <span>A mund të rezervoj tavolinë paraprakisht?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-6" hidden>
+              <p>Ne nuk pranojmë rezervime. Shërbejmë me radhë direkt në lokal. Nëse lokali është plot, pritja zakonisht është e shkurtër.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-7">
+              <span>Sa kushton kafja juaj bazike?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-7" hidden>
+              <p>Espresso ynë fillon nga <strong>70 Lekë</strong>. Mund të gjeni menunë e plotë me çmime në seksionin <a href="#menu">Menu</a>.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-cta" id="kontakt" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-content">
+          <div class="cta-badge" aria-hidden="true">☕</div>
+          <h2 id="cta-heading">Gati për një kafo të shkëlqyer?</h2>
+          <p>Vizitoni Glow Cafe sot. Jemi hapur çdo ditë nga ora 07:00 deri në 20:00.</p>
+          <div class="cta-actions">
+            <a href="tel:0690000000" class="btn btn-primary btn-large">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 5.51 5.51l1.28-1.28a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.39 14.92z"/></svg>
+              0690000000
+            </a>
+            <a href="#vendndodhja" class="btn btn-outline-pink btn-large">
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Na gjej në hartë
+            </a>
+          </div>
+          <p class="cta-note">Rruga Jakov Xoxa 12, Fier &nbsp;·&nbsp; Çdo ditë 07:00–20:00</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="#" class="footer-logo" aria-label="Glow Cafe – kthehu lart">
+          <span class="logo-glow">Glow</span><span class="logo-cafe-footer">Cafe</span>
+        </a>
+        <p class="footer-tagline">Shija që ndriçon ditën tuaj.</p>
+        <p class="footer-muted">Kafe cilësore dhe atmosferë e ngrohtë në qendër të Fierit, që nga Janari 2026.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Navigim</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#rreth-nesh">Rreth Nesh</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#sherbimet">Shërbimet</a></li>
+          <li><a href="#orari">Orari</a></li>
+          <li><a href="#vendndodhja">Vendndodhja</a></li>
+          <li><a href="#pyetje">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Kontakt</h3>
+        <address class="footer-contact">
+          <p>
+            <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 5.51 5.51l1.28-1.28a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.39 14.92z"/></svg>
+            <a href="tel:0690000000">0690000000</a>
+          </p>
+          <p>
+            <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rruga Jakov Xoxa 12, Fier
+          </p>
+          <p>
+            <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            07:00 – 20:00, çdo ditë
+          </p>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Glow Cafe. Të gjitha të drejtat e rezervuara.</p>
+        <a href="#main-content" class="back-to-top" aria-label="Kthehu lart">
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+          Lart
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
